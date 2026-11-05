@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 820" width="1100" height="820" font-family="-apple-system, 'Segoe UI', system-ui, sans-serif">
+  <!-- Background -->
+  <rect width="1100" height="820" fill="#f7f8fa" rx="12"/>
+
+  <!-- Title -->
+  <rect x="20" y="16" width="1060" height="52" rx="8" fill="#1a5c2a"/>
+  <text x="550" y="49" text-anchor="middle" font-size="22" font-weight="700" fill="#ffffff">🌾 SmartAgri — Application Workflow</text>
+
+  <!-- ═══════════════════════ LAYER LABELS ═══════════════════════ -->
+  <!-- User Layer -->
+  <rect x="20" y="84" width="108" height="24" rx="4" fill="#2563eb"/>
+  <text x="74" y="101" text-anchor="middle" font-size="11" font-weight="600" fill="#fff">USER LAYER</text>
+
+  <!-- App Core Layer -->
+  <rect x="20" y="200" width="108" height="24" rx="4" fill="#7c3aed"/>
+  <text x="74" y="217" text-anchor="middle" font-size="11" font-weight="600" fill="#fff">APP CORE</text>
+
+  <!-- Pages Layer -->
+  <rect x="20" y="316" width="108" height="24" rx="4" fill="#0f766e"/>
+  <text x="74" y="333" text-anchor="middle" font-size="11" font-weight="600" fill="#fff">PAGES LAYER</text>
+
+  <!-- Utils Layer -->
+  <rect x="20" y="572" width="108" height="24" rx="4" fill="#b45309"/>
+  <text x="74" y="589" text-anchor="middle" font-size="11" font-weight="600" fill="#fff">UTILS LAYER</text>
+
+  <!-- External Layer -->
+  <rect x="20" y="698" width="108" height="24" rx="4" fill="#9f1239"/>
+  <text x="74" y="715" text-anchor="middle" font-size="11" font-weight="600" fill="#fff">EXTERNAL APIs</text>
+
+  <!-- ═══════════════════════ USER LAYER ═══════════════════════ -->
+  <rect x="148" y="80" width="912" height="96" rx="8" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+
+  <!-- Browser -->
+  <rect x="170" y="96" width="130" height="64" rx="7" fill="#2563eb"/>
+  <text x="235" y="122" text-anchor="middle" font-size="12" font-weight="600" fill="#fff">🖥️ Web Browser</text>
+  <text x="235" y="139" text-anchor="middle" font-size="10" fill="#bfdbfe">localhost:8501</text>
+  <text x="235" y="153" text-anchor="middle" font-size="10" fill="#bfdbfe">Streamlit UI</text>
+
+  <!-- Sidebar Nav -->
+  <rect x="330" y="96" width="130" height="64" rx="7" fill="#1d4ed8"/>
+  <text x="395" y="120" text-anchor="middle" font-size="12" font-weight="600" fill="#fff">📋 Sidebar Nav</text>
+  <text x="395" y="136" text-anchor="middle" font-size="10" fill="#bfdbfe">st.radio navigation</text>
+  <text x="395" y="151" text-anchor="middle" font-size="10" fill="#bfdbfe">st.switch_page()</text>
+
+  <!-- Session State -->
+  <rect x="490" y="96" width="130" height="64" rx="7" fill="#1e40af"/>
+  <text x="555" y="120" text-anchor="middle" font-size="12" font-weight="600" fill="#fff">💾 Session State</text>
+  <text x="555" y="136" text-anchor="middle" font-size="10" fill="#bfdbfe">Conversation history</text>
+  <text x="555" y="151" text-anchor="middle" font-size="10" fill="#bfdbfe">Cached models</text>
+
+  <!-- Config -->
+  <rect x="650" y="96" width="130" height="64" rx="7" fill="#1e3a8a"/>
+  <text x="715" y="120" text-anchor="middle" font-size="12" font-weight="600" fill="#fff">⚙️ config.py</text>
+  <text x="715" y="136" text-anchor="middle" font-size="10" fill="#bfdbfe">Colours · i18n · t()</text>
+  <text x="715" y="151" text-anchor="middle" font-size="10" fill="#bfdbfe">Page metadata</text>
+
+  <!-- .env -->
+  <rect x="810" y="96" width="130" height="64" rx="7" fill="#312e81"/>
+  <text x="875" y="120" text-anchor="middle" font-size="12" font-weight="600" fill="#fff">🔑 .env Secrets</text>
+  <text x="875" y="136" text-anchor="middle" font-size="10" fill="#bfdbfe">WATSONX_APIKEY</text>
+  <text x="875" y="151" text-anchor="middle" font-size="10" fill="#bfdbfe">PROJECT_ID · URL</text>
+
+  <!-- Arrows in user row -->
+  <line x1="300" y1="128" x2="330" y2="128" stroke="#93c5fd" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <line x1="460" y1="128" x2="490" y2="128" stroke="#93c5fd" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <line x1="620" y1="128" x2="650" y2="128" stroke="#93c5fd" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <line x1="780" y1="128" x2="810" y2="128" stroke="#93c5fd" stroke-width="2" marker-end="url(#arrowBlue)"/>
+
+  <!-- ═══════════════════════ APP CORE LAYER ═══════════════════════ -->
+  <rect x="148" y="196" width="912" height="96" rx="8" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="1.5"/>
+
+  <!-- app.py box — centred -->
+  <rect x="440" y="210" width="220" height="68" rx="7" fill="#7c3aed"/>
+  <text x="550" y="234" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">🚀 app.py</text>
+  <text x="550" y="251" text-anchor="middle" font-size="10" fill="#e9d5ff">Entry point · Routing · Sidebar</text>
+  <text x="550" y="266" text-anchor="middle" font-size="10" fill="#e9d5ff">st.navigation(position="hidden")</text>
+
+  <!-- Vertical connector user→app -->
+  <line x1="550" y1="176" x2="550" y2="210" stroke="#a78bfa" stroke-width="2" stroke-dasharray="4,3" marker-end="url(#arrowPurple)"/>
+
+  <!-- ═══════════════════════ PAGES LAYER ═══════════════════════ -->
+  <rect x="148" y="308" width="912" height="240" rx="8" fill="#f0fdf4" stroke="#6ee7b7" stroke-width="1.5"/>
+
+  <!-- Pages: 8 boxes in two rows of 4 -->
+  <!-- Row 1 -->
+  <rect x="162" y="326" width="150" height="80" rx="7" fill="#047857"/>
+  <text x="237" y="350" text-anchor="middle" font-size="12" font-weight="600" fill="#fff">🏠 Dashboard</text>
+  <text x="237" y="366" text-anchor="middle" font-size="9.5" fill="#a7f3d0">KPI cards · Yield chart</text>
+  <text x="237" y="381" text-anchor="middle" font-size="9.5" fill="#a7f3d0">Weather · Activities</text>
+  <text x="237" y="396" text-anchor="middle" font-size="9" fill="#6ee7b7">dashboard.py</text>
+
+  <rect x="326" y="326" width="150" height="80" rx="7" fill="#065f46"/>
+  <text x="401" y="350" text-anchor="middle" font-size="12" font-weight="600" fill="#fff">👤 Farmer Profile</text>
+  <text x="401" y="366" text-anchor="middle" font-size="9.5" fill="#a7f3d0">Personal details</text>
+  <text x="401" y="381" text-anchor="middle" font-size="9.5" fill="#a7f3d0">Land &amp; crop list</text>
+  <text x="401" y="396" text-anchor="middle" font-size="9" fill="#6ee7b7">farmer_profile.py</text>
+
+  <rect x="490" y="326" width="150" height="80" rx="7" fill="#14532d"/>
+  <text x="565" y="350" text-anchor="middle" font-size="12" font-weight="600" fill="#fff">🤖 AI Assistant</text>
+  <text x="565" y="366" text-anchor="middle" font-size="9.5" fill="#a7f3d0">IBM Granite chat</text>
+  <text x="565" y="381" text-anchor="middle" font-size="9.5" fill="#a7f3d0">Multi-turn history</text>
+  <text x="565" y="396" text-anchor="middle" font-size="9" fill="#6ee7b7">ai_assistant.py</text>
+
+  <rect x="654" y="326" width="150" height="80" rx="7" fill="#166534"/>
+  <text x="729" y="350" text-anchor="middle" font-size="12" font-weight="600" fill="#fff">🌤️ Weather Advisory</text>
+  <text x="729" y="366" text-anchor="middle" font-size="9.5" fill="#a7f3d0">7-day forecast</text>
+  <text x="729" y="381" text-anchor="middle" font-size="9.5" fill="#a7f3d0">Farming advisories</text>
+  <text x="729" y="396" text-anchor="middle" font-size="9" fill="#6ee7b7">weather_advisory.py</text>
+
+  <rect x="818" y="326" width="150" height="80" rx="7" fill="#15803d"/>
+  <text x="893" y="350" text-anchor="middle" font-size="12" font-weight="600" fill="#fff">🌱 Crop &amp; Soil</text>
+  <text x="893" y="366" text-anchor="middle" font-size="9.5" fill="#a7f3d0">NPK analysis</text>
+  <text x="893" y="381" text-anchor="middle" font-size="9.5" fill="#a7f3d0">Crop calendar</text>
+  <text x="893" y="396" text-anchor="middle" font-size="9" fill="#6ee7b7">crop_soil_advisory.py</text>
+
+  <!-- Row 2 -->
+  <rect x="270" y="432" width="150" height="80" rx="7" fill="#1a5c2a"/>
+  <text x="345" y="456" text-anchor="middle" font-size="12" font-weight="600" fill="#fff">🔬 Disease Analysis</text>
+  <text x="345" y="472" text-anchor="middle" font-size="9.5" fill="#a7f3d0">Disease library</text>
+  <text x="345" y="487" text-anchor="middle" font-size="9.5" fill="#a7f3d0">Scouting log</text>
+  <text x="345" y="502" text-anchor="middle" font-size="9" fill="#6ee7b7">disease_analysis.py</text>
+
+  <rect x="470" y="432" width="150" height="80" rx="7" fill="#166534"/>
+  <text x="545" y="456" text-anchor="middle" font-size="12" font-weight="600" fill="#fff">📊 Mandi Market</text>
+  <text x="545" y="472" text-anchor="middle" font-size="9.5" fill="#a7f3d0">Live APMC prices</text>
+  <text x="545" y="487" text-anchor="middle" font-size="9.5" fill="#a7f3d0">Trend charts</text>
+  <text x="545" y="502" text-anchor="middle" font-size="9" fill="#6ee7b7">mandi_market.py</text>
+
+  <rect x="670" y="432" width="150" height="80" rx="7" fill="#15803d"/>
+  <text x="745" y="456" text-anchor="middle" font-size="12" font-weight="600" fill="#fff">📚 Knowledge Base</text>
+  <text x="745" y="472" text-anchor="middle" font-size="9.5" fill="#a7f3d0">Article search</text>
+  <text x="745" y="487" text-anchor="middle" font-size="9.5" fill="#a7f3d0">RAG Q&amp;A (planned)</text>
+  <text x="745" y="502" text-anchor="middle" font-size="9" fill="#6ee7b7">knowledge_base.py</text>
+
+  <!-- app.py → Pages connector -->
+  <line x1="550" y1="278" x2="550" y2="326" stroke="#6ee7b7" stroke-width="2" stroke-dasharray="4,3" marker-end="url(#arrowGreen)"/>
+
+  <!-- ═══════════════════════ UTILS LAYER ═══════════════════════ -->
+  <rect x="148" y="564" width="912" height="116" rx="8" fill="#fffbeb" stroke="#fcd34d" stroke-width="1.5"/>
+
+  <rect x="165" y="580" width="185" height="84" rx="7" fill="#92400e"/>
+  <text x="257" y="607" text-anchor="middle" font-size="12" font-weight="600" fill="#fff">🧠 granite_client.py</text>
+  <text x="257" y="623" text-anchor="middle" font-size="9.5" fill="#fde68a">IBM Granite wrapper</text>
+  <text x="257" y="638" text-anchor="middle" font-size="9.5" fill="#fde68a">chat(messages) → (reply, err)</text>
+  <text x="257" y="653" text-anchor="middle" font-size="9.5" fill="#fde68a">ModelInference · watsonx.ai</text>
+
+  <rect x="370" y="580" width="185" height="84" rx="7" fill="#78350f"/>
+  <text x="462" y="607" text-anchor="middle" font-size="12" font-weight="600" fill="#fff">🌐 live_data.py</text>
+  <text x="462" y="623" text-anchor="middle" font-size="9.5" fill="#fde68a">Open-Meteo weather</text>
+  <text x="462" y="638" text-anchor="middle" font-size="9.5" fill="#fde68a">data.gov.in mandi prices</text>
+  <text x="462" y="653" text-anchor="middle" font-size="9.5" fill="#fde68a">@st.cache_data · TTL</text>
+
+  <rect x="575" y="580" width="185" height="84" rx="7" fill="#713f12"/>
+  <text x="667" y="607" text-anchor="middle" font-size="12" font-weight="600" fill="#fff">📊 charts.py</text>
+  <text x="667" y="623" text-anchor="middle" font-size="9.5" fill="#fde68a">Reusable Plotly helpers</text>
+  <text x="667" y="638" text-anchor="middle" font-size="9.5" fill="#fde68a">Gauge · Bar · Line</text>
+  <text x="667" y="653" text-anchor="middle" font-size="9.5" fill="#fde68a">Donut · Scatter charts</text>
+
+  <rect x="780" y="580" width="185" height="84" rx="7" fill="#6b2d00"/>
+  <text x="872" y="607" text-anchor="middle" font-size="12" font-weight="600" fill="#fff">🗂️ demo_data.py</text>
+  <text x="872" y="623" text-anchor="middle" font-size="9.5" fill="#fde68a">Fallback demo dataset</text>
+  <text x="872" y="638" text-anchor="middle" font-size="9.5" fill="#fde68a">Clearly labelled samples</text>
+  <text x="872" y="653" text-anchor="middle" font-size="9.5" fill="#fde68a">No fake live data</text>
+
+  <!-- Pages → Utils connector -->
+  <line x1="550" y1="548" x2="550" y2="564" stroke="#fcd34d" stroke-width="2" stroke-dasharray="4,3" marker-end="url(#arrowAmber)"/>
+
+  <!-- ═══════════════════════ EXTERNAL APIs LAYER ═══════════════════════ -->
+  <rect x="148" y="696" width="912" height="108" rx="8" fill="#fff1f2" stroke="#fca5a5" stroke-width="1.5"/>
+
+  <rect x="175" y="712" width="200" height="76" rx="7" fill="#9f1239"/>
+  <text x="275" y="737" text-anchor="middle" font-size="12" font-weight="600" fill="#fff">🤖 IBM watsonx.ai</text>
+  <text x="275" y="753" text-anchor="middle" font-size="9.5" fill="#fecdd3">Granite-3.3-8B-Instruct</text>
+  <text x="275" y="768" text-anchor="middle" font-size="9.5" fill="#fecdd3">ModelInference API</text>
+  <text x="275" y="783" text-anchor="middle" font-size="9" fill="#fb7185">us-south.ml.cloud.ibm.com</text>
+
+  <rect x="405" y="712" width="200" height="76" rx="7" fill="#881337"/>
+  <text x="505" y="737" text-anchor="middle" font-size="12" font-weight="600" fill="#fff">🌦️ Open-Meteo API</text>
+  <text x="505" y="753" text-anchor="middle" font-size="9.5" fill="#fecdd3">Free weather API</text>
+  <text x="505" y="768" text-anchor="middle" font-size="9.5" fill="#fecdd3">No API key required</text>
+  <text x="505" y="783" text-anchor="middle" font-size="9" fill="#fb7185">api.open-meteo.com</text>
+
+  <rect x="635" y="712" width="200" height="76" rx="7" fill="#7f1d1d"/>
+  <text x="735" y="737" text-anchor="middle" font-size="12" font-weight="600" fill="#fff">📈 data.gov.in</text>
+  <text x="735" y="753" text-anchor="middle" font-size="9.5" fill="#fecdd3">India Open Data API</text>
+  <text x="735" y="768" text-anchor="middle" font-size="9.5" fill="#fecdd3">APMC Mandi prices</text>
+  <text x="735" y="783" text-anchor="middle" font-size="9" fill="#fb7185">api.data.gov.in</text>
+
+  <!-- ChromaDB -->
+  <rect x="865" y="712" width="180" height="76" rx="7" fill="#5b0f0f" stroke="#fca5a5" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="955" y="737" text-anchor="middle" font-size="12" font-weight="600" fill="#fff">🗄️ ChromaDB</text>
+  <text x="955" y="753" text-anchor="middle" font-size="9.5" fill="#fecdd3">RAG vector store</text>
+  <text x="955" y="768" text-anchor="middle" font-size="9.5" fill="#fecdd3">pymupdf docs</text>
+  <text x="955" y="783" text-anchor="middle" font-size="9" fill="#fb7185">(Planned — Roadmap)</text>
+
+  <!-- Utils → External connector -->
+  <line x1="550" y1="680" x2="550" y2="696" stroke="#fca5a5" stroke-width="2" stroke-dasharray="4,3" marker-end="url(#arrowRed)"/>
+
+  <!-- ═══════════════════════ ARROW MARKERS ═══════════════════════ -->
+  <defs>
+    <marker id="arrowBlue" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#93c5fd"/>
+    </marker>
+    <marker id="arrowPurple" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#a78bfa"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#6ee7b7"/>
+    </marker>
+    <marker id="arrowAmber" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#fcd34d"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#fca5a5"/>
+    </marker>
+  </defs>
+
+  <!-- ═══════════════════════ FOOTER ═══════════════════════ -->
+  <line x1="20" y1="808" x2="1080" y2="808" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="550" y="818" text-anchor="middle" font-size="10" fill="#57606a">SmartAgri v0.1.0 · Built with Streamlit · IBM Granite · IBM watsonx.ai</text>
+</svg>
